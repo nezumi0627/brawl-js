@@ -1,13 +1,5 @@
-# Python cache files
-__pycache__/
-*.py[cod]
-
-# Virtual environment directories
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
+# Node.js dependencies
+node_modules/
 
 # Environment variables file
 .env
@@ -21,8 +13,15 @@ venv.bak/
 *.sublime-workspace
 *.sublime-project
 
-# Jupyter Notebook checkpoints
-.ipynb_checkpoints
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
-# Pytest cache
-.cache
+# Build directories
+dist/
+build/
+
+# Temporary files
+*.tmp
+*.temp
